@@ -30,7 +30,7 @@ function addOneTask(task){
     li.innerHTML = `<p class = "mr-3">
     ${task}
     </p>
-    <img id = "imgID" src="./cross.png" alt="cross">`
+    <img id = "imgID" src="bluecross.png">`
     ul.appendChild(li);
     input.value = "";
 
